@@ -12,6 +12,7 @@ b.addEventListener('click', function(e){
     var imgTag = document.createElement('img');
     imgTag.src = data.cats[1].photo;
     imgTag.alt = data.cats[1].name;
+
     box.appendChild(imgTag);
   });
 });
